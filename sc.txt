@@ -1,0 +1,5 @@
+import student.csv as student
+select * from student 
+select name,dept from student where age>33 or name=dian order by name 
+insert into student values(select * from student)
+delete from student where age>=21
